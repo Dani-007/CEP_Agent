@@ -17,7 +17,7 @@ Este projeto foi desenvolvido como um estudo prático sobre:
 LLMs são modelos probabilísticos, não bancos de dados. Quando perguntados sobre um CEP específico (especialmente os menos conhecidos), eles tendem a gerar um endereço plausível, mas incorreto.
 
 ### O Problema: Alucinação do Modelo Puro
-Na imagem abaixo, vemos o modelo Gemini tentando adivinhar um endereço para o CEP `13.566-448`. Ele retorna um endereço com cidade e estado corretos porém erra quando tenta determinar o bairro e lougadouro.
+Na imagem abaixo, vemos o modelo Gemini tentando adivinhar um endereço para o CEP `13.566-448`. Ele retorna um endereço com cidade e estado corretos porém erra quando tenta determinar o bairro e logradouro.
 
 ![Resposta Incorreta do Gemini Puro](./assets/GeminiResposta.png)
 *Exemplo: Modelo tentando "lembrar" um endereço e errando.*
@@ -73,7 +73,7 @@ CEPagent/
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [URL_DO_SEU_REPOSITORIO_AQUI]
+    git clone https://github.com/Dani-007/CEP_Agent.git
     cd CEPagent
     ```
 
